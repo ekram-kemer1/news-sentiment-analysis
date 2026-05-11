@@ -1,5 +1,16 @@
+
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
+
+# VS Code settings
 .vscode/
-data/raw/raw_analyst_ratings.csv
+
+# Raw dataset
+data/raw/

@@ -1,2 +1,24 @@
-data/raw/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
 venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Models
+*.pkl
+*.h5
+*.joblib
+
+# Data
+data/raw/

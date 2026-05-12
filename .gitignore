@@ -1,17 +1,43 @@
 
-# Virtual environment
-venv/
-
-# Python cache
+## =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
 
-# Jupyter checkpoints
+# =========================
+# Virtual environment
+# =========================
+venv/
+.env/
+
+# =========================
+# Jupyter
+# =========================
 .ipynb_checkpoints/
 
-# VS Code settings
+# =========================
+# VS Code
+# =========================
 .vscode/
 
-# Raw dataset
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Models (prevent huge files)
+# =========================
+*.pkl
+*.h5
+*.joblib
+
+# =========================
+# DATA SAFETY RULE
+# =========================
+# Only ignore RAW data 
 data/raw/
-*.csv
+
+# IMPORTANT:
+# data/processed/   ← keep tracked
